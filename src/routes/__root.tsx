@@ -72,14 +72,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { title: "Optimistic vs Pessimistic UI" },
+{
+  name: "description",
+  content:
+    "A high-fidelity React Query benchmarking application comparing optimistic and pessimistic UI update strategies using MSW.",
+},
+{ name: "author", content: "Pavani Sri" },
+{
+  property: "og:title",
+  content: "Optimistic vs Pessimistic UI",
+},
+{
+  property: "og:description",
+  content:
+    "Interactive benchmarking app demonstrating optimistic and pessimistic UI update patterns with React Query and MSW.",
+},
+{ property: "og:type", content: "website" },
+{ name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
